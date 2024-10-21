@@ -1,0 +1,17 @@
+{
+  "name": "cypress-pom-project",
+  "version": "1.0.0",
+  "description": "Cypress POM project for SIGO platform",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/step_definitions"
+  }
+}
