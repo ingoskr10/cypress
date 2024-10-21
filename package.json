@@ -1,7 +1,7 @@
 {
   "name": "cypress-pom-project",
   "version": "1.0.0",
-  "description": "Cypress POM project for SIGO platform",
+  "description": "proyecto en cypress bajo arquitectura Page Object Model implementando cleand code",
   "scripts": {
     "test": "cypress run",
     "cypress:open": "cypress open"

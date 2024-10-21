@@ -14,11 +14,11 @@ When('I enter valid username and password', () => {
   LoginPage.typePassword(user.password);
 });
 
-And('I click the login button', () => {
+When('I click the login button', () => {
   LoginPage.clickLogin();
 });
 
 Then('I should be logged in successfully', () => {
-  // Add assertion for successful login, e.g., checking for a dashboard element
+  
   cy.get('.dashboard').should('be.visible');
 });
